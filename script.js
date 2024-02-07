@@ -82,3 +82,6 @@ const allSongs = [
 playButton.addEventListener('click', () => {
     alert('Great!')
 })
+
+
+const audio = new Audio()
