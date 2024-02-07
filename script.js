@@ -11,7 +11,7 @@ const allSongs = [
         title: "Scratching The Surface",
         artist: "Quincy Larson",
         duration: "4:25",
-        src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/scratching-the-surface.mp3"
+        src: "https://drive.google.com/file/d/1vgzcAj47liaz5iEC7GuJE3-knVSpFcEc/view?usp=sharing"
     }, 
     {
         id: 1,
@@ -83,7 +83,8 @@ const allSongs = [
 const audio = new Audio()
 
 let userData = {
-    songs: [...allSongs]
+    songs: [...allSongs],
+    currentSong: null,
+    songCurrentTime: 0
 }
 
-console.log(userData)
