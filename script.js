@@ -89,3 +89,5 @@ const audio = new Audio()
 let userData = {
     songs: [...allSongs]
 }
+
+console.log(userData)
