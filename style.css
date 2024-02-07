@@ -5,7 +5,7 @@
     --app-background-color: #4d4d62;
     --background-color: #1b1b32;
     --foreground-color: #3b3b4f;
-    --highlight-color: #f1be32;
+    --highlight-color: #32f142;
   
     /* font sizes */
     --root-font-size: 16px;
@@ -149,10 +149,15 @@
     background: transparent;
     border: none;
     color: var(--primary-color);
+    opacity: .7;
     cursor: pointer;
     font-size: var(--root-font-size);
     outline-color: var(--highlight-color);
     text-align: center;
+  }
+
+  button:hover {
+    opacity: 1;
   }
   
   .playlist-song {
