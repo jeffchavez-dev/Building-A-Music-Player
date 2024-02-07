@@ -90,5 +90,5 @@ let userData = {
 
 const renderSongs = (array) => {}
 
-const songsHTML = array.map()
+const songsHTML = array.map((song) => {}) // The map() method is used to iterate through an array and return a new array.
 
