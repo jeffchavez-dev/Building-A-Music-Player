@@ -28,6 +28,13 @@ const allSongs = [
         src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/still-learning.mp3"
     },
     {
+        id: 3,
+        title: "Cruising for a Musing",
+        artist: "Quincy Larson",
+        duration: "3:34",
+        src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/cruising-for-a-musing.mp3",
+    },
+    {
         id: 4,
         title: "Never Not Favored",
         artist: "Quincy Larson",
