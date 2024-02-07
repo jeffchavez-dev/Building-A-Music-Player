@@ -52,7 +52,7 @@
   
   .player,
   .playlist {
-    width: 450px;
+    width: 650px;
     background-color: var(--background-color);
     border: 3px solid var(--foreground-color);
   }
@@ -101,7 +101,7 @@
   .player-content {
     display: flex;
     background-color: var(--foreground-color);
-    width: 430px;
+    width: 600px;
     height: 200px;
     column-gap: 13px;
     align-items: center;
@@ -125,7 +125,7 @@
     padding: 14px;
     background-color: var(--background-color);
     height: 153px;
-    width: 226px;
+    width: 400px;
   }
   
   .player-display-song-artist {
