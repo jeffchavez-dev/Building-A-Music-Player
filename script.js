@@ -113,5 +113,9 @@ renderSongs(userData?.songs.sort((a,b) => {
     if (a.title < b.title) {
         return -1;
     }
+
+    if (a.title > b.title) {
+        return 1;
+    }
 })) 
 // optional chaining (?.) helps prevent errors when accessing nested properties that might be null or undefined. For example:
