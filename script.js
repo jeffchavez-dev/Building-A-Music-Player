@@ -104,3 +104,4 @@ const songsHTML = array.map((song) => {return `
     </li>
 `}).join("") 
 
+playlistSongs.innerHTML = songsHTML
