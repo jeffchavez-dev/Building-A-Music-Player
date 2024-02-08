@@ -120,3 +120,8 @@ renderSongs(userData?.songs.sort((a,b) => {
     return 0; 
 })) 
 // optional chaining (?.) helps prevent errors when accessing nested properties that might be null or undefined.
+
+
+const playSong = (id) => {
+
+}
