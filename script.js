@@ -105,3 +105,4 @@ const songsHTML = array.map((song) => {return `
 `}).join("") 
 
 playlistSongs.innerHTML = songsHTML
+renderSongs(userData?.songs) // optional chaining (?.) helps prevent errors when accessing nested properties that might be null or undefined. For example:
