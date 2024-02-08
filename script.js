@@ -89,7 +89,9 @@ let userData = {
 }
 
 const renderSongs = (array) => {
+    // The map() method is used to iterate through an array and return a new array.
     const songsHTML = array.map((song) => {return ` 
+    
     <li id="song-${song.id}" class="playlist-song">
         <button class="playlist-song-info">
             <span class="playlist-song-title">${song.title}</span>
@@ -106,6 +108,5 @@ playlistSongs.innerHTML = songsHTML
 
 }
 
-// The map() method is used to iterate through an array and return a new array.
 
 renderSongs(userData?.songs) // optional chaining (?.) helps prevent errors when accessing nested properties that might be null or undefined. For example:
