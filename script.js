@@ -8,7 +8,7 @@ const shuffleButton  = document.getElementById('shuffle')
 const allSongs = [
     {
         id: 0,
-        title: "Scratching The Surface",
+        title: "Baptist Catechism 1",
         artist: "Quincy Larson",
         duration: "4:25",
         src: "https://drive.google.com/file/d/1vgzcAj47liaz5iEC7GuJE3-knVSpFcEc/view?usp=sharing"
@@ -117,5 +117,6 @@ renderSongs(userData?.songs.sort((a,b) => {
     if (a.title > b.title) {
         return 1;
     }
+    return 0; 
 })) 
 // optional chaining (?.) helps prevent errors when accessing nested properties that might be null or undefined. For example:
