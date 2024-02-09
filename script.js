@@ -121,7 +121,7 @@ playlistSongs.innerHTML = songsHTML
 }
 
 
-renderSongs(userData?.songs.sort((a,b) => {
+userData?.songs.sort((a,b) => {
     if (a.title < b.title) {
         return -1;
     }
@@ -130,7 +130,7 @@ renderSongs(userData?.songs.sort((a,b) => {
         return 1;
     }
     return 0; 
-})) 
+})
 // optional chaining (?.) helps prevent errors when accessing nested properties that might be null or undefined.
 
 renderSongs(userData?.songs) 
