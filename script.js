@@ -125,6 +125,9 @@ playlistSongs.innerHTML = songsHTML
 }
 
 
+
+playButton.addEventListener('click', () => {})
+
 userData?.songs.sort((a,b) => {
     if (a.title < b.title) {
         return -1;
