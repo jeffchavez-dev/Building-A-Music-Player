@@ -99,7 +99,7 @@ const playSong = (id) => {
     }
 
     userData.currentSong = song
-    userData.currentSong.classList.add()
+    playButton.classList.add('playing')
 }
 
 
