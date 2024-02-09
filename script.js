@@ -127,8 +127,8 @@ playlistSongs.innerHTML = songsHTML
 
 
 playButton.addEventListener('click', () => {
-
-    
+    if (userData?.currentSong === null)
+        playSong()
 })
 
 userData?.songs.sort((a,b) => {
