@@ -126,7 +126,10 @@ playlistSongs.innerHTML = songsHTML
 
 
 
-playButton.addEventListener('click', () => {})
+playButton.addEventListener('click', () => {
+
+    
+})
 
 userData?.songs.sort((a,b) => {
     if (a.title < b.title) {
