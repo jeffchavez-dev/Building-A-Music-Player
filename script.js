@@ -128,7 +128,7 @@ playlistSongs.innerHTML = songsHTML
 
 playButton.addEventListener('click', () => {
     if (userData?.currentSong === null) {
-        playSong()
+        playSong(userData?.songs[0].id)
     }
         
 })
