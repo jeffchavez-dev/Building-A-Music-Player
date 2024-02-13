@@ -105,6 +105,7 @@ const playSong = (id) => {
 
 const pauseSong = () => {
     userData.songCurrentTime = audio.currentTime
+    playButton.classList.remove(".playing")
 }
 
 const renderSongs = (array) => {
