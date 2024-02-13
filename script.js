@@ -137,6 +137,7 @@ const getCurrentSongIndex = () => {
 }
 
 const playNextSong = () => {}
+const playPreviousSong = () => {}
 
 playButton.addEventListener('click', () => {
     if (userData?.currentSong === null) {
