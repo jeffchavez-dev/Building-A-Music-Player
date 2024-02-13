@@ -103,6 +103,7 @@ const playSong = (id) => {
     audio.play()
 }
 
+const pauseSong = () => {}
 
 const renderSongs = (array) => {
     // The map() method is used to iterate through an array and return a new array.
