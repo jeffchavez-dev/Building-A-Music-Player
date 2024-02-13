@@ -109,6 +109,8 @@ const pauseSong = () => {
     audio.pause()
 }
 
+pauseButton.addEventListener('click', pauseSong)
+
 const renderSongs = (array) => {
     // The map() method is used to iterate through an array and return a new array.
     const songsHTML = array.map((song) => {return ` 
