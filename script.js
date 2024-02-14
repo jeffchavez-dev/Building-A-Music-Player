@@ -12,7 +12,7 @@ const allSongs = [
         artist: "Jim Orick",
         duration: "4:25",
         src: "/catechism/Baptist Catechism 1-5.mp3",
-        content: "<p>Who is the first and chiefest being?</p> <p>God is the first and chiefest being (Is. 44:6; 48:12; Ps. 97:9)</p>"
+        content: "<p>1. Who is the first and chiefest being?</p> <p>God is the first and chiefest being (Is. 44:6; 48:12; Ps. 97:9)</p>  <br> <p>2. Ought every one to believe there is a God?</p> <p>Everyone ought to believe there is a God (Heb. 11:6); and it is their great sin and folly who do not (Ps. 14:1).</p> <br> <p>3. How may we know there is a God?</p> <p>The light of nature in man and the works of God plainly declare there is a God (Rom. 1:19,20; Ps. 19:1, 2, 3; Acts 17:24); but his word and Spirit only do it fully and effectually for the salvation of sinners (1 Cor. 2:10; 2 Tim. 3:15,16).</p>  <br> <p>4. What is the word of God?</p> <p>The holy scriptures of the Old and New Testament are the word of God, and the only certain rule of faith and obedience (2 Tim. 3:16; Eph. 2:20).</p>  <br> <p>5. May all men make use of the holy scriptures?</p> <p>All men are not only permitted, but commanded and exhorted to read, hear, and understand the holy scriptures (John 5:38; John 17:17,18; Rev.1:3; Acts 8:30).</p>  <p></p> <p></p> "
     }, 
     {
         id: 1,
@@ -113,6 +113,11 @@ const renderSongs = (array) => {
 playlistSongs.innerHTML = songsHTML
 
 }
+
+const setPlayButtonAccessibleText = () => {
+    const song = userData?.currentSong || userData?.songs[0]
+}
+
 
 const getCurrentSongIndex = () => {
     return userData?.songs.indexOf(userData?.currentSong)
