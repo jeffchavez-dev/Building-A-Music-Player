@@ -145,6 +145,8 @@ const playNextSong = () => {
         playSong(nextSong.id)
     }
 }
+
+nextButton.addEventListener('click', playNextSong)
 const playPreviousSong = () => {}
 
 playButton.addEventListener('click', () => {
