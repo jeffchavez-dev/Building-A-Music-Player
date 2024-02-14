@@ -12,7 +12,7 @@ const allSongs = [
         artist: "Jim Orick",
         duration: "4:25",
         src: "/catechism/Baptist Catechism 1-5.mp3",
-        content: "<p>Who is the first and chiefest being?</p> <br> <p>God is the first and chiefest being (Is. 44:6; 48:12; Ps. 97:9)</p>"
+        content: "<p>Who is the first and chiefest being?</p> <p>God is the first and chiefest being (Is. 44:6; 48:12; Ps. 97:9)</p>"
     }, 
     {
         id: 1,
@@ -82,6 +82,7 @@ const playSong = (id) => {
     playButton.classList.add('playing')
     audio.play()
     highlightCurrentSong()
+    setPlayerDisplay()
 }
 
 const pauseSong = () => {
@@ -140,8 +141,17 @@ const playPreviousSong = () => {
 }
 
 const setPlayerDisplay = () => {
-    const playingSong = document.getElementById("#player-song-title")
-    const songArtist = document.getElementById("#player-song-artist")
+    const playingSong = document.getElementById("player-song-title")
+    const songArtist = document.getElementById("player-song-artist")
+    const playingCatechism = document.querySelector(".player-display-song-artist")
+    const currentTitle = userData?.currentSong?.title
+    const currentArtist = userData?.currentSong?.artist
+    const currentContent = userData?.currentSong?.content
+    
+    // playingSong.textContent = currentTitle ? currentTitle : ""
+    // songArtist.textContent = currentArtist ? currentArtist : ""
+
+    playingCatechism.innerHTML = currentContent ? currentContent : ""
     
 }
 const highlightCurrentSong = () => {
