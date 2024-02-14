@@ -25,35 +25,35 @@ const allSongs = [
         title: "Baptist Catechism 11-15",
         artist: "Jim Orick",
         duration: "3:51",
-        src: "/catechism/Baptist Catechism .mp3"
+        src: "/catechism/Baptist Catechism 11-15.mp3"
     },
     {
         id: 3,
         title: "Baptist Catechism 16-20",
         artist: "Jim Orick",
         duration: "3:34",
-        src: "/catechism/Baptist Catechism .mp3",
+        src: "/catechism/Baptist Catechism 16-20.mp3",
     },
     {
         id: 4,
         title: "Baptist Catechism 21-25",
         artist: "Jim Orick",
         duration: "3:35",
-        src: "/catechism/Baptist Catechism .mp3",
+        src: "/catechism/Baptist Catechism 21-25.mp3",
     },
     {
         id: 5,
         title: "Baptist Catechism 26-30",
         artist: "Jim Orick",
         duration: "3:12",
-        src: "/catechism/Baptist Catechism .mp3",
+        src: "/catechism/Baptist Catechism 26-30.mp3",
     },
     {
         id: 6,
         title: "Baptist Catechism 31-35",
         artist: "Jim Orick",
         duration: "3:25",
-        src: "/catechism/Baptist Catechism .mp3",
+        src: "/catechism/Baptist Catechism 31-35.mp3",
     }
         
 ]
