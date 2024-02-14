@@ -156,7 +156,6 @@ const playPreviousSong = () => {
         const previousSong = userData?.songs[currentSongIndex - 1]
         playSong(previousSong.id)
     }
-    
 }
 
 previousButton.addEventListener('click', playPreviousSong)
