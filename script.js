@@ -165,11 +165,11 @@ playButton.addEventListener('click', () => {
 })
 
 userData?.songs.sort((a,b) => {
-    if (a.title < b.title) {
+    if (a.id < b.id) {
         return -1;
     }
 
-    if (a.title > b.title) {
+    if (a.id > b.id) {
         return 1;
     }
     return 0; 
