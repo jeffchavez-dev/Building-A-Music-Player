@@ -158,7 +158,14 @@ const playPreviousSong = () => {
     }
 }
 
+const highlightCurrentSong = () => {
+    const playlistSongElements = document.querySelectorAll(".playlist-song")
+}
+
 previousButton.addEventListener('click', playPreviousSong)
+
+
+
 
 playButton.addEventListener('click', () => {
     if (userData?.currentSong === null) {
