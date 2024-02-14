@@ -275,11 +275,11 @@
   @media (max-width: 700px) {
     .player,
     .playlist {
-      width: 300px;
+      width: 90%;
     }
   
     .player {
-      height: 340px;
+      height: 80%;
     }
   
     #playlist-songs {
