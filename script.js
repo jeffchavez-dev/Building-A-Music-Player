@@ -148,7 +148,10 @@ const playNextSong = () => {
 nextButton.addEventListener('click', playNextSong)
 
 
-const playPreviousSong = () => {}
+const playPreviousSong = () => {
+
+    
+}
 
 playButton.addEventListener('click', () => {
     if (userData?.currentSong === null) {
