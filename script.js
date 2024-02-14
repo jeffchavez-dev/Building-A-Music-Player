@@ -11,7 +11,8 @@ const allSongs = [
         title: "Baptist Catechism 1-5",
         artist: "Jim Orick",
         duration: "4:25",
-        src: "/catechism/Baptist Catechism 1-5.mp3"
+        src: "/catechism/Baptist Catechism 1-5.mp3",
+        content: "<p>Who is the first and chiefest being?</p> <br> <p>God is the first and chiefest being (Is. 44:6; 48:12; Ps. 97:9)</p>"
     }, 
     {
         id: 1,
