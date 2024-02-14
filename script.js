@@ -11,7 +11,7 @@ const allSongs = [
         title: "Baptist Catechism 1",
         artist: "Quincy Larson",
         duration: "4:25",
-        src: "https://drive.google.com/file/d/1vgzcAj47liaz5iEC7GuJE3-knVSpFcEc/view?usp=sharing"
+        src: "/catechism/Baptist Catechism 1-5.mp3"
     }, 
     {
         id: 1,
