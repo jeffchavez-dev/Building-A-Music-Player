@@ -86,7 +86,7 @@
   
   .parallel-lines > div {
     height: 2px;
-    width: 100%;
+    width: 50px;
     min-width: 75px;
     background-color: var(--highlight-color);
   }
