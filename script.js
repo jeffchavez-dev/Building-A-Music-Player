@@ -18,42 +18,42 @@ const allSongs = [
         title: "Baptist Catechism 6-10",
         artist: "Jim Orick",
         duration: "4:15",
-        src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/cant-stay-down.mp3"
+        src: "/catechism/Baptist Catechism"
     },
     {
         id: 2,
         title: "Baptist Catechism 11-15",
         artist: "Jim Orick",
         duration: "3:51",
-        src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/still-learning.mp3"
+        src: "/catechism/Baptist Catechism"
     },
     {
         id: 3,
         title: "Baptist Catechism 16-20",
         artist: "Jim Orick",
         duration: "3:34",
-        src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/cruising-for-a-musing.mp3",
+        src: "/catechism/Baptist Catechism",
     },
     {
         id: 4,
         title: "Baptist Catechism 21-25",
         artist: "Jim Orick",
         duration: "3:35",
-        src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/never-not-favored.mp3",
+        src: "/catechism/Baptist Catechism",
     },
     {
         id: 5,
         title: "Baptist Catechism 26-30",
         artist: "Jim Orick",
         duration: "3:12",
-        src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/from-the-ground-up.mp3",
+        src: "/catechism/Baptist Catechism",
     },
     {
         id: 6,
         title: "Baptist Catechism 31-35",
         artist: "Jim Orick",
         duration: "3:25",
-        src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/walking-on-air.mp3",
+        src: "/catechism/Baptist Catechism",
     }
         
 ]
