@@ -285,7 +285,7 @@
   }
   
 .source, .source > a {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--foreground-color);
   text-decoration: none;
 }
