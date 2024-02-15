@@ -2,7 +2,7 @@
     /* colors */
     --primary-color: #dfdfe2;
     --secondary-color: #ffffff;
-    --app-background-color: #4d4d62;
+    --app-background-color: #cacaf3;
     --background-color: #1a5206;
     --foreground-color: #3b3b4f;
     --highlight-color: #32f142;
@@ -372,7 +372,7 @@
   
     .player-display-song-artist > p {
       white-space: pre-wrap;
-      font-size: 3em;
+      font-size: 10px;
       padding: 0;
       margin: 0;
     }
