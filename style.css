@@ -284,10 +284,10 @@
     fill: #ff0000;
   }
   
-.source {
+.source, .source > a {
   font-size: 10px;
   color: var(--foreground-color);
-  text
+  text-decoration: none;
 }
   @media (max-width: 700px) {
     .player,
