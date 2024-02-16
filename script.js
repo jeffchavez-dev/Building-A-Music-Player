@@ -20,7 +20,7 @@ const allSongs = [
         artist: "Jim Orick",
         duration: "4:15",
         src: "/catechism/Baptist Catechism 6-10.mp3",
-        content:  "<p></p> <p></p> <br> <p></p> <p></p> "
+        content:  "<p>6. What things are chiefly contained in the holy scriptures?</p> <p>The holy scriptures chiefly contain what man ought to believe concerning God, and what duty God requireth of man (2 Tim. 1:13; 3:15,16).</p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> "
     },
     {
         id: 2,
