@@ -19,7 +19,8 @@ const allSongs = [
         title: "Baptist Catechism 6-10",
         artist: "Jim Orick",
         duration: "4:15",
-        src: "/catechism/Baptist Catechism 6-10.mp3"
+        src: "/catechism/Baptist Catechism 6-10.mp3",
+        content:  "<p></p> <p></p> <br> <p></p> <p></p> "
     },
     {
         id: 2,
