@@ -52,6 +52,7 @@ const allSongs = [
         artist: "Jim Orick",
         duration: "3:12",
         src: "/catechism/Baptist Catechism 26-30.mp3",
+        content:  "<p></p> <p></p> <br> <p></p> <p></p> "
     },
     {
         id: 6,
@@ -59,6 +60,7 @@ const allSongs = [
         artist: "Jim Orick",
         duration: "3:25",
         src: "/catechism/Baptist Catechism 31-35.mp3",
+        content:  "<p></p> <p></p> <br> <p></p> <p></p> "
     }
         
 ]
