@@ -36,7 +36,7 @@ const allSongs = [
         artist: "Jim Orick",
         duration: "3:34",
         src: "/catechism/Baptist Catechism 16-20.mp3",
-        content:  "<p>16.</p> <p></p> <br> <p></p> <p></p> "
+        content:  "<p>16.</p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> "
     },
     {
         id: 4,
@@ -44,7 +44,7 @@ const allSongs = [
         artist: "Jim Orick",
         duration: "3:35",
         src: "/catechism/Baptist Catechism 21-25.mp3",
-        content:  "<p>21.</p> <p></p> <br> <p></p> <p></p> "
+        content:  "<p>21.</p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> "
     },
     {
         id: 5,
@@ -52,7 +52,7 @@ const allSongs = [
         artist: "Jim Orick",
         duration: "3:12",
         src: "/catechism/Baptist Catechism 26-30.mp3",
-        content:  "<p>26. </p> <p></p> <br> <p></p> <p></p> "
+        content:  "<p>26. </p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> "
     },
     {
         id: 6,
@@ -60,7 +60,7 @@ const allSongs = [
         artist: "Jim Orick",
         duration: "3:25",
         src: "/catechism/Baptist Catechism 31-35.mp3",
-        content:  "<p>31</p> <p></p> <br> <p></p> <p></p> "
+        content:  "<p>31</p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> "
     }
         
 ]
