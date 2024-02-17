@@ -65,6 +65,9 @@ const allSongs = [
         
 ]
 
+const getAudioDuration = () => {
+    
+}
 
 const audio = new Audio();
 
