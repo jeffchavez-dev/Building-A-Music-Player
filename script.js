@@ -36,7 +36,7 @@ const allSongs = [
         artist: "Jim Orick",
         duration: "3:34",
         src: "/catechism/Baptist Catechism 16-20.mp3",
-        content:  "<p>16.</p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> "
+        content:  "<p>16. Did our first parents continue in the estate wherein they were created?</p> <p>Our first parents being left to the freedom of their own will, fell from the estate wherein they were created, by sinning against God (Gen. 3:6, 7, 8, 13; Eccles. 7:29).</p> <br> <p>17. What is sin?</p> <p>Sin is any want of conformity unto, or transgression of, the law of God (1 John 3:4).</p> <br> <p>18. What was the sin whereby our first parents fell from the estate wherein they were created?</p> <p>The sin whereby our first parents fell from the estate wherein they were created, was their eating the forbidden fruit (Gen. 3:6, 12, 16, 17).</p> <br> <p>19. Did all mankind fall in Adam’s first transgression?</p> <p>The covenant being made with Adam, not only for himself but for his posterity, all mankind descending from him by ordinary generation sinned in him, and fell with him in his first transgression (Gen. 2:16, 17; Rom. 5:12; 1 Cor. 15:21, 22).</p> <br> <p>20. Into what estate did the fall bring mankind?</p> <p>The fall brought mankind into an estate of sin and misery (Rom. 5:12).</p> <br> <p></p> <p></p> "
     },
     {
         id: 4,
@@ -66,7 +66,7 @@ const allSongs = [
 ]
 
 const getAudioDuration = () => {
-    
+
 }
 
 const audio = new Audio();
