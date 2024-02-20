@@ -189,7 +189,11 @@ const deleteSong = (id) => {
         playlistSongs.appendChild(resetButton)
         resetButton.addEventListener("click", () =>{
             userData.songs = [...allSongs]
+            renderSongs(userData?.songs)
+            setPlayButtonAccessibleText()
+            resetButton.remove()
         })
+       
     }
 }
 
