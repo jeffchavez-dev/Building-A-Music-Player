@@ -202,6 +202,9 @@ shuffleButton.addEventListener('click', shuffle)
 audio.addEventListener('ended', () => {
     const currentSongIndex = getCurrentSongIndex()
     const nextSongExists = userData.songs.length - 1 > currentSongIndex
+    if (nextSongExists) {
+        playNextSong()
+    }
 })
 const setPlayerDisplay = () => {
     const playingSong = document.getElementById("player-song-title")
