@@ -44,7 +44,7 @@ const allSongs = [
         artist: "Jim Orick",
         duration: "3:35",
         src: "/catechism/Baptist Catechism 21-25.mp3",
-        content:  "<p>21. Wherein consists the sinfulness of that estate whereinto man fell?</p> <p>The sinfulness of that estate whereinto man fell, consists in the guilt of Adam’s first sin, the want of original righteousness, and the corruption of his whole nature, which is commonly called original sin; together with all actual transgressions which proceed from it (Rom. 5:12, to the end; Eph. 2:1, 2, 3; James 1:14, 15; Mt. 15:19).</p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> "
+        content:  "<p>21. Wherein consists the sinfulness of that estate whereinto man fell?</p> <p>The sinfulness of that estate whereinto man fell, consists in the guilt of Adam’s first sin, the want of original righteousness, and the corruption of his whole nature, which is commonly called original sin; together with all actual transgressions which proceed from it (Rom. 5:12, to the end; Eph. 2:1, 2, 3; James 1:14, 15; Mt. 15:19).</p> <br> <p>What is the misery of that estate whereinto man fell?</p> <p>All mankind by their fall lost communion with God (Gen. 3:8, 10, 24), are under his wrath and curse (Eph. 2:2, 3; Gal. 3:10), and so made liable to all miseries in this life, to death itself, and to the pains of hell for ever (Lam. 3:39; Rom. 6:23; Mt. 25:41, 46).</p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p>"
     },
     {
         id: 5,
