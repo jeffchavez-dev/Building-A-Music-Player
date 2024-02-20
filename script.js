@@ -199,7 +199,10 @@ const deleteSong = (id) => {
 
 shuffleButton.addEventListener('click', shuffle)
 
-audio.addEventListener('ended', () => {})
+audio.addEventListener('ended', () => {
+    const currentSongIndex = getCurrentSongIndex()
+    const nextSongExists = userData.songs.length - 1 > currentSongIndex
+})
 const setPlayerDisplay = () => {
     const playingSong = document.getElementById("player-song-title")
     const songArtist = document.getElementById("player-song-artist")
