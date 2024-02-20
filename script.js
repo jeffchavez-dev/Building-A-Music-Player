@@ -168,6 +168,9 @@ const shuffle = () => {
     setPlayButtonAccessibleText()
 }
 
+
+const deleteSong = (id) => {}
+
 shuffleButton.addEventListener('click', shuffle)
 const setPlayerDisplay = () => {
     const playingSong = document.getElementById("player-song-title")
