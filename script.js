@@ -52,7 +52,7 @@ const allSongs = [
         artist: "Jim Orick",
         duration: "3:12",
         src: "/catechism/Baptist Catechism 26-30.mp3",
-        content:  "<p>26. </p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> "
+        content:  "<p>26. What offices doth Christ execute as our Redeemer?</p> <p>Christ as our Redeemer executeth the offices of a prophet, of a priest, and of king, both in his estate of humiliation and exaltation (Acts 3:22; Heb. 12:25; 2 Cor. 13:3; Heb. 5:5, 6, 7; 7:25; Ps. 2:6; Is. 9:6, 7; Mt. 21:5; Ps. 2:8-11).</p> <br> <p>27. How doth Christ execute the office of a prophet?</p> <p>Christ executeth the office of prophet in revealing to us, by his word and Spirit, the will of God for our salvation (John 1:18; 1 Pet.1:10,11, 12; John 15:15; and 20:31).</p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> "
     },
     {
         id: 6,
@@ -60,7 +60,7 @@ const allSongs = [
         artist: "Jim Orick",
         duration: "3:25",
         src: "/catechism/Baptist Catechism 31-35.mp3",
-        content:  "<p>31</p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> "
+        content:  "<p>31. </p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> <br> <p></p> <p></p> "
     }
         
 ]
