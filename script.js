@@ -181,9 +181,6 @@ const deleteSong = (id) => {
     highlightCurrentSong()
     setPlayButtonAccessibleText()
 
-    if (userData?.currentSong?.id === id) {
-
-    }
 }
 
 shuffleButton.addEventListener('click', shuffle)
