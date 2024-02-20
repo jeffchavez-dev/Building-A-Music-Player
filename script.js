@@ -169,7 +169,10 @@ const shuffle = () => {
 }
 
 
-const deleteSong = (id) => {}
+const deleteSong = (id) => {
+    userData.songs = userData?.songs.filter((song) => song.id !== id)
+
+}
 
 shuffleButton.addEventListener('click', shuffle)
 const setPlayerDisplay = () => {
