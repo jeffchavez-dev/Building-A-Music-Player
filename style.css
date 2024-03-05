@@ -152,6 +152,9 @@
     fill: var(--highlight-color);
   }
   
+  .player-audio-duration {
+    
+  }
   .player-buttons {
     display: flex;
     justify-content: space-around;
