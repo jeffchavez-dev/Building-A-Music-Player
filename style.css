@@ -153,11 +153,14 @@
   }
   
   .player-audio-duration {
-
+    display: flex;
+    justify-content: center;
   }
 
   .player-audio-duration-field {
-    
+    background-color: var(--highlight-color);
+    height: 1px;
+    width: 80%;
   }
 
 
