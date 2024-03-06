@@ -184,6 +184,10 @@
   button:hover {
     opacity: 1;
   }
+
+  .repeat-symbol {
+    
+  }
   
   .playlist-song {
     outline-color: var(--highlight-color);
