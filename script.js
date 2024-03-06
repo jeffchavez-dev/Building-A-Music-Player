@@ -4,6 +4,7 @@ const pauseButton  = document.getElementById('pause')
 const nextButton  = document.getElementById('next')
 const previousButton  = document.getElementById('previous')
 const shuffleButton  = document.getElementById('shuffle')
+const loopButton  = document.getElementById('loop')
 
 const allSongs = [
     {
@@ -213,6 +214,18 @@ audio.addEventListener('ended', () => {
         setPlayButtonAccessibleText()
     }
 })
+
+const loop = () => {
+    if (userData?.currentSong === null) {
+        playSong(userData?.songs[0].id)
+    } else {
+        const currentSongIndex = getCurrentSongIndex()
+        // const nextSong = userData?.songs[currentSongIndex + 1]
+        playSong(currentSongIndex.id)
+    }
+}
+
+loopButton.addEventListener('click', loop)
 
 
 const setPlayerDisplay = () => {
