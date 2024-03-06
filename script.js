@@ -216,7 +216,7 @@ audio.addEventListener('ended', () => {
 })
 
 const loop = () => {
-    loopButton.classList.add('looping')
+    loopButton.classList.toggle('looping')
     audio.loop = !audio.loop;  // Toggle the audio loop property
 
     if (!audio.loop && userData?.currentSong !== null) {

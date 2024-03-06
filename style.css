@@ -148,11 +148,12 @@
     fill: var(--primary-color);
   }
   
-  .playing > svg, 
-  .looping {
+  .playing > svg {
     fill: var(--highlight-color);
   }
-  
+  .looping {
+    color: var(--highlight-color)
+  }
   .player-audio-duration {
     display: flex;
     justify-content: center;
