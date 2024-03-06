@@ -81,7 +81,9 @@ const getAudioDuration = () => {
         const audioDuration = audio.duration
         const formattedDuration = formatDuration(audioDuration)
         console.log(`Duration: ${formattedDuration}`)
-    })
+    });
+
+    audio.dispatchEvent(new Event('loadedmetadata'));
     
 }
 
@@ -92,7 +94,10 @@ function formatDuration(durationInSeconds) {
     return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
   }
 
-audioDuration.addEventListener('click', getAudioDuration)
+audioDuration.addEventListener('click', () => {
+    console.log(`You clicked me`)
+    getAudioDuration()
+})
 
 
 const playSong = (id) => {
