@@ -148,7 +148,8 @@
     fill: var(--primary-color);
   }
   
-  .playing > svg {
+  .playing > svg, 
+  .looping {
     fill: var(--highlight-color);
   }
   

@@ -216,6 +216,7 @@ audio.addEventListener('ended', () => {
 })
 
 const loop = () => {
+    loopButton.classList.add('looping')
     if (userData?.currentSong === null) {
         playSong(userData?.songs[0].id)
     } else {
@@ -223,6 +224,7 @@ const loop = () => {
         // const nextSong = userData?.songs[currentSongIndex + 1]
         playSong(currentSongIndex.id)
     }
+    
 }
 
 loopButton.addEventListener('click', loop)
