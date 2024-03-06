@@ -217,17 +217,11 @@ audio.addEventListener('ended', () => {
 
 const loop = () => {
     loopButton.classList.add('looping')
-    if (userData?.currentSong === null) {
-        playSong(userData?.songs[0].id)
-        const currentSongIndex = getCurrentSongIndex()
-        const currentSongId = userData?.songs[currentSongIndex].id;
-        console.log(`I am playing ${currentSongId}`)
-    } else {
-        const currentSongIndex = getCurrentSongIndex()
-        // const nextSong = userData?.songs[currentSongIndex + 1]
-        const currentSongId = userData?.songs[currentSongIndex].id;
-        console.log(currentSongId)
-        playSong(currentSongId)
+    audio.loop = !audio.loop;  // Toggle the audio loop property
+
+    if (!audio.loop && userData?.currentSong !== null) {
+        // If loop is disabled and there is a current song, update currentTime
+        userData.songCurrentTime = audio.currentTime;
     }
     
 }
