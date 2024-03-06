@@ -75,18 +75,20 @@ let userData = {
     currentSong: null,
     songCurrentTime: 0
 }
-
 const getAudioDuration = () => {
-    audio.addEventListener('loadedmetadata', () => {
-        const audioDuration = audio.duration
-        const formattedDuration = formatDuration(audioDuration)
-        console.log(`Duration: ${formattedDuration}`)
-    });
-
-    audio.dispatchEvent(new Event('loadedmetadata'));
-    
+    audio.addEventListener('loadedmetadata', handleDurationChange);
+    audio.addEventListener('durationchange', handleDurationChange);
 }
 
+function handleDurationChange() {
+    if (isFinite(audio.duration)) {
+        const audioDuration = audio.duration;
+        const formattedDuration = formatDuration(audioDuration);
+        console.log(`Duration: ${formattedDuration}`);
+    } else {
+        console.log("Duration is not finite");
+    }
+}
 
 function formatDuration(durationInSeconds) {
     const minutes = Math.floor(durationInSeconds / 60);
@@ -94,10 +96,7 @@ function formatDuration(durationInSeconds) {
     return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
   }
 
-audioDuration.addEventListener('click', () => {
-    console.log(`You clicked me`)
-    getAudioDuration()
-})
+audioDuration.addEventListener('click', () => getAudioDuration)
 
 
 const playSong = (id) => {
