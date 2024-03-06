@@ -184,6 +184,10 @@
   button:hover {
     opacity: 1;
   }
+
+  .loop {
+    font-size: 1.5em;
+  }
   
   .playlist-song {
     outline-color: var(--highlight-color);
