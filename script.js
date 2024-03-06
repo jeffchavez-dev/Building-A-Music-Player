@@ -5,6 +5,7 @@ const nextButton  = document.getElementById('next')
 const previousButton  = document.getElementById('previous')
 const shuffleButton  = document.getElementById('shuffle')
 const loopButton  = document.getElementById('loop')
+const audioDuration  = document.querySelector('.player-audio-duration-field ')
 
 const allSongs = [
     {
@@ -76,10 +77,22 @@ let userData = {
 }
 
 const getAudioDuration = () => {
-    const audioDuration = audio.duration
-    console.log(audioDuration)
+    audio.addEventListener('loadedmetadata', () => {
+        const audioDuration = audio.duration
+        const formattedDuration = formatDuration(audioDuration)
+        console.log(`Duration: ${formattedDuration}`)
+    })
+    
 }
 
+
+function formatDuration(durationInSeconds) {
+    const minutes = Math.floor(durationInSeconds / 60);
+    const seconds = Math.floor(durationInSeconds % 60);
+    return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+  }
+
+audioDuration.addEventListener('click', getAudioDuration)
 
 
 const playSong = (id) => {
