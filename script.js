@@ -219,10 +219,15 @@ const loop = () => {
     loopButton.classList.add('looping')
     if (userData?.currentSong === null) {
         playSong(userData?.songs[0].id)
+        const currentSongIndex = getCurrentSongIndex()
+        const currentSongId = userData?.songs[currentSongIndex].id;
+        console.log(`I am playing ${currentSongId}`)
     } else {
         const currentSongIndex = getCurrentSongIndex()
         // const nextSong = userData?.songs[currentSongIndex + 1]
-        playSong(currentSongIndex.id)
+        const currentSongId = userData?.songs[currentSongIndex].id;
+        console.log(currentSongId)
+        playSong(currentSongId)
     }
     
 }
