@@ -76,8 +76,10 @@ let userData = {
 }
 
 const getAudioDuration = () => {
-    
+    const audioDuration = audio.duration
+    console.log(audioDuration)
 }
+
 
 
 const playSong = (id) => {
