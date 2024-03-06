@@ -66,9 +66,6 @@ const allSongs = [
         
 ]
 
-const getAudioDuration = () => {
-
-}
 
 const audio = new Audio();
 
@@ -77,6 +74,11 @@ let userData = {
     currentSong: null,
     songCurrentTime: 0
 }
+
+const getAudioDuration = () => {
+    
+}
+
 
 const playSong = (id) => {
     const song = userData?.songs.find((song) => song.id === id)
