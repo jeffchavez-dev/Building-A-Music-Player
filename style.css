@@ -161,6 +161,7 @@
     background-color: var(--highlight-color);
     height: 2px;
     width: 90%;
+    cursor: pointer;
   }
 
 
