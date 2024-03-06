@@ -160,7 +160,7 @@
   .player-audio-duration-field {
     background-color: var(--highlight-color);
     height: 1px;
-    width: 80%;
+    width: 0%;
   }
 
 
