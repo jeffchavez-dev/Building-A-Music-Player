@@ -161,7 +161,7 @@
 
   .player-audio-duration-field {
     background-color: var(--highlight-color);
-    height: 2px;
+    height: 1px;
     width: 90%;
     cursor: pointer;
   }
