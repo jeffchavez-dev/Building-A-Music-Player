@@ -156,7 +156,9 @@
   }
   .player-audio-duration {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
     background-color: var(--foreground-color);
     height: 2px;
     width: 90%;
@@ -165,8 +167,12 @@
   .player-audio-duration-field {
     background-color: var(--highlight-color);
     height: 1px;
-    width: 90%;
+    width: 80%;
     cursor: pointer;
+  }
+
+  .audio-adjuster {
+    
   }
 
 
