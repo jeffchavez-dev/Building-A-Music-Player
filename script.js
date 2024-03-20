@@ -7,7 +7,7 @@ const shuffleButton  = document.getElementById('shuffle')
 const loopButton  = document.getElementById('loop')
 
 const audioNegative  = document.querySelector('.audio-adjuster-negative')
-const audioNegative  = document.querySelector('.audio-adjuster-negative')
+const audioPositive  = document.querySelector('.audio-adjuster-positive')
 const allSongs = [
     {
         id: 0,
