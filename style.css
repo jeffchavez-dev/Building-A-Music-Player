@@ -157,7 +157,9 @@
   .player-audio-duration {
     display: flex;
     justify-content: center;
-    background-color: var(--foreground-color)
+    background-color: var(--foreground-color);
+    height: 1px;
+    width: 90%;
   }
 
   .player-audio-duration-field {
