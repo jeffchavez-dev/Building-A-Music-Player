@@ -97,7 +97,7 @@ function formatDuration(durationInSeconds) {
     return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
   }
 
-audioDuration.addEventListener('click', () => getAudioDuration)
+audioPositive.addEventListener('click', () => getAudioDuration)
 
 
 const playSong = (id) => {
